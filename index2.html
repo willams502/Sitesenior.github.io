@@ -1,89 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt=br">
 <head>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" type="javascript" href="js/script.js">-->
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Sênior Noticias</title>
-</head>
-<body>
-    <header class="header">
-        <nav class="menu">
-            <ul>
-                <li><a href="/index.html"><i class="fas fa-crown"></i>Inicio</a></li>
-                <li><a href="#main"><i class="fas fa-crown"></i>Nóticias</a></li>
-                <li><a href="#contatos"><i class="fas fa-crown"></i>Contatos</a></li>
-            </ul>
-        </nav>
-    </header>
-   <main class="main" id="main">
-       <section class="content">
-           <img src="/img/noticias.png" alt="">
-           <h1>Notícia Destaque</h1>
-           <p>Uma das principais Mudanças no empréstimo consignado INSS ocorridas a partir de agosto deste ano, foi o aumento do prazo para se contrair um empréstimo consignado junto a uma das instituições financeiras que atuam no mercado.
-            A partir deste mês, os empréstimos consignados para os novos aposentados e pensionistas do INSS só podem ser concedidos a partir de seis meses, a contar da data da aposentadoria.
-            Além do prazo dos 6 meses, os bancos e as financeiras devem disponibilizar mais informações sobre o cartão de crédito consignado e assinatura do Termo de Consentimento Esclarecido.
-            Aposentados e pensionistas eram abordados por uma enxurrada de entidades financeiras, oferecendo vantagens e facilidades incomuns para este mercado, sem regras claras e confiáveis.
-            Esta facilidade no momento de adquirir esses empréstimos, levou os aposentados e pensionistas do INSS a um endividamento assombroso. Segundo dados do Banco Central, somente no ano de 2018, os aposentados e pensionistas contraíram dívidas no valor de 128 bilhões de reais.</p>
-       </section>
-       <section class="content2">
-         <img src="https://imagens.ebc.com.br/QqmEBRwr2b3_jIDZznRq3h4I6jo=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/932268-_abr4327.jpg?itok=7qP_z3B3" alt="">
-         <h1>Governo estuda redução dos juros e aumento do prazo do consignado
-        </h1>
-         <p>Atualmente, a taxa de juros não pode ser superior a 2,08% ao mês e deve expressar o custo efetivo do empréstimo. Cada beneficiário pode ter, no máximo, nove contratos ativos, e o número de prestações deve ser de até  72 parcelas mensais e sucessivas.
+    <title>Sênior</title>
 
-          Outra medida para combater os efeitos econômicos da Covid-19, que deve vir por meio de projeto de lei, é a ampliação da margem consignável, ou seja, da fatia do salário que pode ser comprometida com o empréstimo. Hoje a margem é de 30%. “Essa medida vai permitir que [o aposentado ou pensionista] não se endivide com outros [empréstimos] com juros maiores, e faz com que ele possa tomar empréstimos com juros mais baixos”, explicou Bianco.
-          Publicado em 16/03/2020 - 13:43 Por Andreia Verdélio – Repórter da Agência Brasil - Brasília</p>
-       </section>
-   </main>
-   <section>
-    <div class="contatos" id="contatos">
-      <div class="contatos">
-        <div class="contatos-header">
-          <i class="fab fa-instagram"></i>
-          <h3>@senior.sf</h3>
+</head>
+  <body>
+      <div class = "container">
+
+        <div class="hamburguer">
+          <div class="line" id="line1"></div>
+          <div class="line" id="line2"></div>
+          <div class="line" id="line3"></div>
+          <span>fechar</span>
         </div>
+          <header id="home">
+              <div class="img-wrapper">
+                <img src="img/bgc.jpg" alt="">
+              </div>
+              <div class="banner">
+              <h1>SENIOR</h1>
+              <p>SOLUÇÃO FINANCEIRA</p>
+              <a href="https://linktr.ee/Senior.sf"><button>simule aqui</button></a>
+              </div>
+          </header>
+
+          <aside class="sidebar">
+            <nav>
+              <ul class="menu">
+                <li class="menu-item"><a href="#" class="menu-link"><i class="fas fa-crown"></i> Inicio</a></li>
+                <li class="menu-item"><a href="#conhecimentos" class="menu-link"><i class="fas fa-crown"></i>Sobre nós</a></li>
+                <li class="menu-item"><a href="#projetos" class="menu-link"><i class="fas fa-crown"></i>Serviços</a></li>
+                <li class="menu-item"><a href="#trabalhe" class="menu-link"><i class="fas fa-crown"></i>Trabalhe conosco</a></li>
+                <li class="menu-item"><a href="#contatos" class="menu-link"><i class="fas fa-crown"></i>Contatos</a></li>
+              </ul>
+            </nav>
+            <div class="social-media">
+              <a href="https://www.facebook.com/seniorsolucaofinanceira"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/senior.sf/"><i class="fab fa-instagram-square"></i></a>
+              <a href="https://api.whatsapp.com/message/O7NHHLBKHJC5O1"><i class="fab fa-whatsapp-square"></i></a>
+            </div>
+          </aside>
+          <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+              <h1>Sobre</h1>
+            </div>
+            <div class="conhecimentos">
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-crown"></i>
+                  <h3>Sobre Nós</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Prestamos assessoria financeira, disponibilizando soluções como crédito consignado e diversos tipos de consórcio que possibilitam organizar e alavancar as finanças e promover conquistas.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-crown"></i>
+                  <h3>O que é o Empréstimo Consignado?</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>É um empréstimo destinado a aposentados e pensionistas do INSS, servidores públicos e pensionistas de órgãos federais, estaduais e municipais, militares e pensionistas das Forças Armadas, em que as parcelas são descontadas diretamente da sua folha de pagamento.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-crown"></i>
+                  <h3>Vantagens Do Crédito Consignado</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Taxas de juros menores
+                    Com taxas inferiores às das demais linhas de crédito do mercado, o consignado pode ser útil em uma situação emergencial. Alguns exemplos são a compra de um medicamento mais caro ou conserto de um vazamento de água em casa. Confira as taxas praticadas pelo mercado no site do Banco Central.
+                    </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-crown"></i>
+                  <h3>O que é consórcio e para que serve?
+                  </h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Não existe segredo em saber para que serve o consórcio e o modo como ele funciona. Uma administradora autorizada pelo Banco Central organiza um consórcio de veículos, imóveis ou serviços e começa a venda de cotas. As pessoas interessadas adquirem cotas e tornam-se consorciadas depois de assinar um contrato de adesão.</p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-crown"></i>
+                  <h3>Qual é o objetivo do consórcio?
+                  </h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>Consórcio é a reunião de pessoas naturais e jurídicas em grupo, com prazo de duração e número de cotas previamente determinados, promovida pela administradora de consórcio, com a finalidade de propiciar a seus integrantes, de forma isonômica, a aquisição de bens ou serviços, por meio de autofinanciamento.
+                  </p>
+                </div>
+              </div>
+              <div class="conhecimento">
+                <div class="conhecimento-header">
+                  <i class="fas fa-crown"></i>
+                  <h3>PONTOS A OBSERVAR NO CONSIGNADO</h3>
+                </div>
+                <div class="conhecimento-text">
+                  <p>A parcela cabe no seu bolso e não compromete o pagamento de outras contas que você já tem?
+                    Você tem uma dívida cara, no cheque especial ou no rotativo do cartão de crédito, por exemplo? Como os juros são muito maiores nessas duas modalidades, é vantajoso usar o consignado para quitá-las. Dessa forma, você reduzirá o valor total que irá pagar de juros.
+                    Você vai começar um negócio ou pretende fazer uma pequena reforma em casa? Nessas situações, o consignado pode ser uma ótima alternativa, pois permite financiar os materiais em um prazo mais longo.</p>
+                </div>
+              </div>
+              <div class="conhecimentos-img-wrapper">
+                <img src="img/WhatsApp_Image_2021-06-30_at_12.29.30-removebg-preview.png" alt=""></div>
+            </div>
+          </section>
+          <section>
+          <div class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+              <h1>Serviços</h1>
+            </div>
+            <div class="projetos">
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/consignado.png" alt="imagem do projeto ToDo" />
+                </div>
+                <div class="card-info">
+                  <h2>Empréstimo consignado</h2>
+                  <h3>Biometria facial</h3>
+                  <p>Em relação à segurança, o novo processo ajudará na prevenção de fraudes. Nas primeiras pesquisas feitas pelo banco, os números iniciais já se mostram menores do que os do método dos papéis.</p>
+                  <a href="https://api.whatsapp.com/message/O7NHHLBKHJC5O1"><button class="btn">Simule aqui</button></a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-wrapper">
+                  <img src="img/bevi.png" alt="imagem do projeto Maratona" />
+                </div>
+                <div class="card-info">
+                  <h2>Consórcio</h2>
+                  <h3>Bevicred</h3>
+                  <p>Um grupo de pessoas ou empresas, que quer adquirir um bem ou serviço, abre uma poupança comum. Todos os participantes têm garantido o direito de usar essa conta para a compra do bem ou serviço, em algum momento, dentro de um prazo determinado.</p>
+                 <a href="https://www.beviconsorcio.com.br/senior.consorcio/consorcio"><button class="btn">Simule aqui</button></a>
+                </div>
+              </div>            
+            </div>  
+          </section>
+          <section>
+            <!--<div class="col-100">
+              <div class="slider-principal">
+                <img src="/img/bmg.png" alt="">
+                <img src="/img/bradesco.png" alt="">
+                <img src="/img/celetem.png" alt="">
+                <img src="/img/daycoval.png" alt="">
+                <img src="/img/ole.png" alt="">
+                <img src="/img/itau (1).png" alt="">
+                <img src="/img/pan.png" alt="">
+                <img src="/img/safra.png" alt="">
+              </div>
+            </div>  -->
+          </section>
+          <section>
+            <div class="trabalhe-conosco" id="trabalhe">
+              <h1>Trabalhe Conosco</h1>
+              <img src="https://scontent.fplu3-1.fna.fbcdn.net/v/t39.30808-6/224963199_129072806052968_7357324621150790635_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=FLPkM2XjO1QAX8IB4np&_nc_ht=scontent.fplu3-1.fna&oh=2795aaa46855ad0a663ee243a5324939&oe=6199A1C4" alt="">
+            </div>
+          </section>
+          <section>
+            <div class="titulo-trabalhe">
+              <h1>Contatos</h1>
+            </div>
+          </section>
+          <section>
+              <div class="contatos" id="contatos">
+                <div class="contatos">
+                  <div class="contatos-header">
+                    <i class="fab fa-instagram"></i>
+                    <h3>@senior.sf</h3>
+                  </div>
+                </div>
+                <div class="contatos">
+                  <div class="contatos-header">
+                    <i class="fab fa-facebook"></i>
+                    <h3>@seniorsolucaofinanceira</h3>
+                  </div>
+                </div>
+                <div class="contatos">
+                  <div class="contatos-header">
+                    <i class="far fa-envelope"></i>
+                    <h3>atendimento@seniorsf.com.br</h3>
+                  </div>
+                </div>
+                <div class="contatos">
+                  <div class="contatos-header">
+                    <i class="fas fa-street-view"></i>
+                    <h3>Endereço</h3>
+                    <p>Av. Augusto de Lima, 1708 - Centro, Belo Horizonte</p>
+                  </div>
+                </div>
+                <div class="contatos">
+                  <div class="contatos-header">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.5399885709437!2d-43.95298840623788!3d-19.921034314691994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6975ca5b04a2f%3A0x97f5202af2dd3522!2sAv.%20Augusto%20de%20Lima%2C%201708%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030190-001!5e0!3m2!1spt-BR!2sbr!4v1625689622915!5m2!1spt-BR!2sbr" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <div class="footer-content">
+              <p>
+                Copyright &copy; 2021, Matheus Willams - Todos os diretos reservados
+
+              </p>
+              <div class="social-list">
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                  <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+
+              </div>
+            </div>
+          </footer>
+          <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+          </a>
       </div>
-      <div class="contatos">
-        <div class="contatos-header">
-          <i class="fab fa-facebook"></i>
-          <h3>@seniorsolucaofinanceira</h3>
-        </div>
-      </div>
-      <div class="contatos">
-        <div class="contatos-header">
-          <i class="far fa-envelope"></i>
-          <h3>atendimento@seniorsf.com.br</h3>
-        </div>
-      </div>
-      <div class="contatos">
-        <div class="contatos-header">
-          <i class="fas fa-street-view"></i>
-          <h3>Endereço</h3>
-          <p>Av. Augusto de Lima, 1708 - Centro, Belo Horizonte</p>
-        </div>
-      </div>
-      <div class="contatos">
-        <div class="contatos-header">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.5399885709437!2d-43.95298840623788!3d-19.921034314691994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6975ca5b04a2f%3A0x97f5202af2dd3522!2sAv.%20Augusto%20de%20Lima%2C%201708%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030190-001!5e0!3m2!1spt-BR!2sbr!4v1625689622915!5m2!1spt-BR!2sbr" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-    <footer>            
-        <div class="footer-content">
-        <p>
-          Copyright &copy; 2021, Matheus Willams - Todos os diretos reservados
-        </p>
-        </div>
-      </div>
-</footer>
-</body>
-</html>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    document.querySelector(".hamburguer").addEventListener("click",() =>
+document.querySelector(".container").classList.toggle("show-menu")
+);
+$('.slider-principal').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    dots: true,
+  });
+  </script>
+
+  </body>
+  <script src="/js/script.js"></script>
+  </html>
